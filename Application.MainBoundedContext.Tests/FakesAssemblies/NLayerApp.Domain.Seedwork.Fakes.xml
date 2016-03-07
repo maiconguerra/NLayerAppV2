@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Domain.Seedwork.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Entity</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Entity)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.ChangeCurrentIdentityGuid">
+            <summary>Sets the shim of Entity.ChangeCurrentIdentity(Guid identity)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.Constructor">
+            <summary>Sets the shim of Entity.Entity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.EqualityOpEntityEntity">
+            <summary>Sets the shim of Entity.op_Equality(Entity left, Entity right)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.EqualsObject">
+            <summary>Sets the shim of Entity.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.GenerateNewIdentity">
+            <summary>Sets the shim of Entity.GenerateNewIdentity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.GetHashCode">
+            <summary>Sets the shim of Entity.GetHashCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.IdGet">
+            <summary>Sets the shim of Entity.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.IdSetGuid">
+            <summary>Sets the shim of Entity.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.InequalityOpEntityEntity">
+            <summary>Sets the shim of Entity.op_Inequality(Entity left, Entity right)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.IsTransient">
+            <summary>Sets the shim of Entity.IsTransient()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.ChangeCurrentIdentityGuid">
+            <summary>Sets the shim of Entity.ChangeCurrentIdentity(Guid identity)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.EqualsObject">
+            <summary>Sets the shim of Entity.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.GenerateNewIdentity">
+            <summary>Sets the shim of Entity.GenerateNewIdentity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Entity.GetHashCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.IdGet">
+            <summary>Sets the shim of Entity.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.IdSetGuid">
+            <summary>Sets the shim of Entity.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimEntity.AllInstances.IsTransient">
+            <summary>Sets the shim of Entity.IsTransient()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.ValueObject`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.ValueObject{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.Bind(System.IEquatable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.Constructor">
+            <summary>Sets the shim of ValueObject`1.ValueObject`1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.EqualityOpValueObjectOfT0ValueObjectOfT0">
+            <summary>Sets the shim of ValueObject`1.op_Equality(ValueObject`1&lt;!0&gt; left, ValueObject`1&lt;!0&gt; right)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.EqualsObject">
+            <summary>Sets the shim of ValueObject`1.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.EqualsT0">
+            <summary>Sets the shim of ValueObject`1.Equals(!0 other)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.GetHashCode">
+            <summary>Sets the shim of ValueObject`1.GetHashCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.InequalityOpValueObjectOfT0ValueObjectOfT0">
+            <summary>Sets the shim of ValueObject`1.op_Inequality(ValueObject`1&lt;!0&gt; left, ValueObject`1&lt;!0&gt; right)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.AllInstances.EqualsObject">
+            <summary>Sets the shim of ValueObject`1.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.AllInstances.EqualsT0">
+            <summary>Sets the shim of ValueObject`1.Equals(!0 other)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.ShimValueObject`1.AllInstances.GetHashCode01">
+            <summary>Sets the shim of ValueObject`1.GetHashCode()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Entity</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.AttachBackingFieldToId">
+            <summary>Attaches delegates to emulate StubEntity.Id as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.Equals(System.Object)">
+            <summary>Sets the stub of Entity.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.EqualsObject">
+            <summary>Sets the stub of Entity.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.GetHashCode">
+            <summary>Sets the stub of Entity.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.GetHashCode01">
+            <summary>Sets the stub of Entity.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.IdGet">
+            <summary>Sets the stub of Entity.get_Id()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.IdSetGuid">
+            <summary>Sets the stub of Entity.set_Id(Guid value)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.InitializeStub">
+            <summary>Initializes a new instance of type StubEntity</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.Id">
+            <summary>Sets the stub of Entity.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubEntity.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.IRepository`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.AddT0">
+            <summary>Sets the stub of IRepository`1.Add(!0 item)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.AllMatchingISpecificationOfT0">
+            <summary>Sets the stub of IRepository`1.AllMatching(ISpecification`1&lt;!0&gt; specification)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.GetFilteredExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.GetFiltered(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; filter)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.GetGuid">
+            <summary>Sets the stub of IRepository`1.Get(Guid id)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.GetPagedOf1Int32Int32ExpressionOfFuncOfT0M0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Boolean,System.Collections.Generic.IEnumerable{`0}})">
+            <summary>Sets stubs of GetPaged(Int32 pageIndex, Int32 pageCount, Expression`1&lt;Func`2&lt;!0,!!0&gt;&gt; orderByExpression, Boolean ascending)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.MergeT0T0">
+            <summary>Sets the stub of IRepository`1.Merge(!0 persisted, !0 current)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#Add(`0)">
+            <summary>Sets the stub of IRepository`1.Add(!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#AllMatching(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Sets the stub of IRepository`1.AllMatching(ISpecification`1&lt;!0&gt; specification)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#Get(System.Guid)">
+            <summary>Sets the stub of IRepository`1.Get(Guid id)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#GetFiltered(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.GetFiltered(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; filter)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#GetPaged``1(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Boolean)">
+            <summary>Sets the stub of IRepository`1.GetPaged(Int32 pageIndex, Int32 pageCount, Expression`1&lt;Func`2&lt;!0,!!0&gt;&gt; orderByExpression, Boolean ascending)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#Merge(`0,`0)">
+            <summary>Sets the stub of IRepository`1.Merge(!0 persisted, !0 current)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#Modify(`0)">
+            <summary>Sets the stub of IRepository`1.Modify(!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#Remove(`0)">
+            <summary>Sets the stub of IRepository`1.Remove(!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#TrackItem(`0)">
+            <summary>Sets the stub of IRepository`1.TrackItem(!0 item)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.ModifyT0">
+            <summary>Sets the stub of IRepository`1.Modify(!0 item)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.RemoveT0">
+            <summary>Sets the stub of IRepository`1.Remove(!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.TrackItemT0">
+            <summary>Sets the stub of IRepository`1.TrackItem(!0 item)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.UnitOfWorkGet">
+            <summary>Sets the stub of IRepository`1.get_UnitOfWork()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIRepository`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IRepository{TEntity}#UnitOfWork">
+            <summary>Sets the stub of IRepository`1.get_UnitOfWork()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.IUnitOfWork</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.#ctor">
+            <summary>Initializes a new instance of type StubIUnitOfWork</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.Commit">
+            <summary>Sets the stub of IUnitOfWork.Commit()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.CommitAndRefreshChanges">
+            <summary>Sets the stub of IUnitOfWork.CommitAndRefreshChanges()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IUnitOfWork#Commit">
+            <summary>Sets the stub of IUnitOfWork.Commit()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IUnitOfWork#CommitAndRefreshChanges">
+            <summary>Sets the stub of IUnitOfWork.CommitAndRefreshChanges()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#IUnitOfWork#RollbackChanges">
+            <summary>Sets the stub of IUnitOfWork.RollbackChanges()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.RollbackChanges">
+            <summary>Sets the stub of IUnitOfWork.RollbackChanges()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubIUnitOfWork.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.ValueObject`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.Equals(System.Object)">
+            <summary>Sets the stub of ValueObject`1.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.EqualsObject">
+            <summary>Sets the stub of ValueObject`1.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.GetHashCode">
+            <summary>Sets the stub of ValueObject`1.GetHashCode()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.GetHashCode01">
+            <summary>Sets the stub of ValueObject`1.GetHashCode()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.InitializeStub">
+            <summary>Initializes a new instance of type StubValueObject</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Fakes.StubValueObject`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.AndSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.AndSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.ConstructorISpecificationOfT0ISpecificationOfT0">
+            <summary>Sets the shim of AndSpecification`1.AndSpecification`1(ISpecification`1&lt;!0&gt; leftSide, ISpecification`1&lt;!0&gt; rightSide)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the shim of AndSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the shim of AndSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.SatisfiedBy">
+            <summary>Sets the shim of AndSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.AllInstances.LeftSideSpecificationGet">
+            <summary>Sets the shim of AndSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.AllInstances.RightSideSpecificationGet">
+            <summary>Sets the shim of AndSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimAndSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the shim of AndSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.CompositeSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.CompositeSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.Constructor">
+            <summary>Sets the shim of CompositeSpecification`1.CompositeSpecification`1()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimCompositeSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.DirectSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.DirectSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.ConstructorExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of DirectSpecification`1.DirectSpecification`1(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; matchingCriteria)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.SatisfiedBy">
+            <summary>Sets the shim of DirectSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimDirectSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the shim of DirectSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ExpressionBuilder</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.AndOf1ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}})">
+            <summary>Sets the shim of ExpressionBuilder.And(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; first, Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; second)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.ComposeOf1ExpressionOfM0ExpressionOfM0FuncOfExpressionExpressionExpression``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression},System.Linq.Expressions.Expression{``0}})">
+            <summary>Sets the shim of ExpressionBuilder.Compose(Expression`1&lt;!!0&gt; first, Expression`1&lt;!!0&gt; second, Func`3&lt;Expression,Expression,Expression&gt; merge)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.OrOf1ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}})">
+            <summary>Sets the shim of ExpressionBuilder.Or(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; first, Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; second)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimExpressionBuilder.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.NotSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.NotSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.ConstructorExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of NotSpecification`1.NotSpecification`1(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; originalSpecification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.ConstructorISpecificationOfT0">
+            <summary>Sets the shim of NotSpecification`1.NotSpecification`1(ISpecification`1&lt;!0&gt; originalSpecification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.SatisfiedBy">
+            <summary>Sets the shim of NotSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimNotSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the shim of NotSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.OrSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.OrSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.ConstructorISpecificationOfT0ISpecificationOfT0">
+            <summary>Sets the shim of OrSpecification`1.OrSpecification`1(ISpecification`1&lt;!0&gt; leftSide, ISpecification`1&lt;!0&gt; rightSide)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the shim of OrSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the shim of OrSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.SatisfiedBy">
+            <summary>Sets the shim of OrSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.AllInstances.LeftSideSpecificationGet">
+            <summary>Sets the shim of OrSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.AllInstances.RightSideSpecificationGet">
+            <summary>Sets the shim of OrSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimOrSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the shim of OrSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ParameterRebinder</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ParameterRebinder)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.ConstructorDictionaryOfParameterExpressionParameterExpression">
+            <summary>Sets the shim of ParameterRebinder.ParameterRebinder(Dictionary`2&lt;ParameterExpression,ParameterExpression&gt; map)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.ReplaceParametersDictionaryOfParameterExpressionParameterExpressionExpression">
+            <summary>Sets the shim of ParameterRebinder.ReplaceParameters(Dictionary`2&lt;ParameterExpression,ParameterExpression&gt; map, Expression exp)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.VisitParameterParameterExpression">
+            <summary>Sets the shim of ParameterRebinder.VisitParameter(ParameterExpression p)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimParameterRebinder.AllInstances.VisitParameterParameterExpression">
+            <summary>Sets the shim of ParameterRebinder.VisitParameter(ParameterExpression p)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Specification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Specification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.BitwiseAndOpSpecificationOfT0SpecificationOfT0">
+            <summary>Sets the shim of Specification`1.op_BitwiseAnd(Specification`1&lt;!0&gt; leftSideSpecification, Specification`1&lt;!0&gt; rightSideSpecification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.BitwiseOrOpSpecificationOfT0SpecificationOfT0">
+            <summary>Sets the shim of Specification`1.op_BitwiseOr(Specification`1&lt;!0&gt; leftSideSpecification, Specification`1&lt;!0&gt; rightSideSpecification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.Constructor">
+            <summary>Sets the shim of Specification`1.Specification`1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.FalseOpSpecificationOfT0">
+            <summary>Sets the shim of Specification`1.op_False(Specification`1&lt;!0&gt; specification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.LogicalNotOpSpecificationOfT0">
+            <summary>Sets the shim of Specification`1.op_LogicalNot(Specification`1&lt;!0&gt; specification)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.TrueOpSpecificationOfT0">
+            <summary>Sets the shim of Specification`1.op_True(Specification`1&lt;!0&gt; specification)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.TrueSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.TrueSpecification{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.Constructor">
+            <summary>Sets the shim of TrueSpecification`1.TrueSpecification`1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.SatisfiedBy">
+            <summary>Sets the shim of TrueSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.ShimTrueSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the shim of TrueSpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.CompositeSpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.InitializeStub">
+            <summary>Initializes a new instance of type StubCompositeSpecification</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the stub of CompositeSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the stub of CompositeSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.SatisfiedBy">
+            <summary>Sets the stub of Specification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.SatisfiedBy01">
+            <summary>Sets the stub of Specification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.LeftSideSpecification">
+            <summary>Sets the stub of CompositeSpecification`1.get_LeftSideSpecification()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubCompositeSpecification`1.RightSideSpecification">
+            <summary>Sets the stub of CompositeSpecification`1.get_RightSideSpecification()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubISpecification`1">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.ISpecification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubISpecification`1.#ctor">
+            <summary>Initializes a new instance of type StubISpecification</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubISpecification`1.nlads::Microsoft#Samples#NLayerApp#Domain#Seedwork#Specification#ISpecification{TEntity}#SatisfiedBy">
+            <summary>Sets the stub of ISpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubISpecification`1.SatisfiedBy">
+            <summary>Sets the stub of ISpecification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Specification`1</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.InitializeStub">
+            <summary>Initializes a new instance of type StubSpecification</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.SatisfiedBy">
+            <summary>Sets the stub of Specification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.SatisfiedBy01">
+            <summary>Sets the stub of Specification`1.SatisfiedBy()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Seedwork.Specification.Fakes.StubSpecification`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

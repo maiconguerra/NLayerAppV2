@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Application.MainBoundedContext.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.BankAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.BankAppService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.Bind(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.IBankAppService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AddBankAccountBankAccountDTO">
+            <summary>Sets the shim of BankAppService.AddBankAccount(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.BankAccountHasIdentityBankAccountDTO">
+            <summary>Sets the shim of BankAppService.BankAccountHasIdentity(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.CalculateNewBankAccountNumber">
+            <summary>Sets the shim of BankAppService.CalculateNewBankAccountNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.ConstructorIBankAccountRepositoryICustomerRepositoryIBankTransferService">
+            <summary>Sets the shim of BankAppService.BankAppService(IBankAccountRepository bankAccountRepository, ICustomerRepository customerRepository, IBankTransferService transferService)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.Dispose">
+            <summary>Sets the shim of BankAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.FindBankAccountActivitiesGuid">
+            <summary>Sets the shim of BankAppService.FindBankAccountActivities(Guid bankAccountId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.FindBankAccounts">
+            <summary>Sets the shim of BankAppService.FindBankAccounts()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.LockBankAccountGuid">
+            <summary>Sets the shim of BankAppService.LockBankAccount(Guid bankAccountId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.PerformBankTransferBankAccountDTOBankAccountDTODecimal">
+            <summary>Sets the shim of BankAppService.PerformBankTransfer(BankAccountDTO fromAccount, BankAccountDTO toAccount, Decimal amount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.SaveBankAccountBankAccount">
+            <summary>Sets the shim of BankAppService.SaveBankAccount(BankAccount bankAccount)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.AddBankAccountBankAccountDTO">
+            <summary>Sets the shim of BankAppService.AddBankAccount(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.BankAccountHasIdentityBankAccountDTO">
+            <summary>Sets the shim of BankAppService.BankAccountHasIdentity(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.CalculateNewBankAccountNumber">
+            <summary>Sets the shim of BankAppService.CalculateNewBankAccountNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.Dispose">
+            <summary>Sets the shim of BankAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.FindBankAccountActivitiesGuid">
+            <summary>Sets the shim of BankAppService.FindBankAccountActivities(Guid bankAccountId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.FindBankAccounts">
+            <summary>Sets the shim of BankAppService.FindBankAccounts()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.LockBankAccountGuid">
+            <summary>Sets the shim of BankAppService.LockBankAccount(Guid bankAccountId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.PerformBankTransferBankAccountDTOBankAccountDTODecimal">
+            <summary>Sets the shim of BankAppService.PerformBankTransfer(BankAccountDTO fromAccount, BankAccountDTO toAccount, Decimal amount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.ShimBankAppService.AllInstances.SaveBankAccountBankAccount">
+            <summary>Sets the shim of BankAppService.SaveBankAccount(BankAccount bankAccount)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.BankAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService.#ctor(Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.BankingModule.Aggregates.BankAccountAgg.IBankAccountRepository,Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.CustomerAgg.ICustomerRepository,Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.BankingModule.Services.IBankTransferService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService.InitializeStub">
+            <summary>Initializes a new instance of type StubBankAppService</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubBankAppService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.IBankAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.#ctor">
+            <summary>Initializes a new instance of type StubIBankAppService</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.AddBankAccountBankAccountDTO">
+            <summary>Sets the stub of IBankAppService.AddBankAccount(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.FindBankAccountActivitiesGuid">
+            <summary>Sets the stub of IBankAppService.FindBankAccountActivities(Guid bankAccountId)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.FindBankAccounts">
+            <summary>Sets the stub of IBankAppService.FindBankAccounts()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.LockBankAccountGuid">
+            <summary>Sets the stub of IBankAppService.LockBankAccount(Guid bankAccountId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#BankingModule#Services#IBankAppService#AddBankAccount(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO)">
+            <summary>Sets the stub of IBankAppService.AddBankAccount(BankAccountDTO bankAccountDTO)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#BankingModule#Services#IBankAppService#FindBankAccountActivities(System.Guid)">
+            <summary>Sets the stub of IBankAppService.FindBankAccountActivities(Guid bankAccountId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#BankingModule#Services#IBankAppService#FindBankAccounts">
+            <summary>Sets the stub of IBankAppService.FindBankAccounts()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#BankingModule#Services#IBankAppService#LockBankAccount(System.Guid)">
+            <summary>Sets the stub of IBankAppService.LockBankAccount(Guid bankAccountId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#BankingModule#Services#IBankAppService#PerformBankTransfer(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO,Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO,System.Decimal)">
+            <summary>Sets the stub of IBankAppService.PerformBankTransfer(BankAccountDTO fromAccount, BankAccountDTO toAccount, Decimal amount)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.PerformBankTransferBankAccountDTOBankAccountDTODecimal">
+            <summary>Sets the stub of IBankAppService.PerformBankTransfer(BankAccountDTO fromAccount, BankAccountDTO toAccount, Decimal amount)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.BankingModule.Services.Fakes.StubIBankAppService.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.CustomerAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.CustomerAppService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.Bind(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.ICustomerAppService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AddNewCustomerCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.AddNewCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.ConstructorICountryRepositoryICustomerRepository">
+            <summary>Sets the shim of CustomerAppService.CustomerAppService(ICountryRepository countryRepository, ICustomerRepository customerRepository)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.Dispose">
+            <summary>Sets the shim of CustomerAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.FindCountriesInt32Int32">
+            <summary>Sets the shim of CustomerAppService.FindCountries(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.FindCountriesString">
+            <summary>Sets the shim of CustomerAppService.FindCountries(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.FindCustomerGuid">
+            <summary>Sets the shim of CustomerAppService.FindCustomer(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.FindCustomersInt32Int32">
+            <summary>Sets the shim of CustomerAppService.FindCustomers(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.FindCustomersString">
+            <summary>Sets the shim of CustomerAppService.FindCustomers(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.MaterializeCustomerFromDtoCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.MaterializeCustomerFromDto(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.RemoveCustomerGuid">
+            <summary>Sets the shim of CustomerAppService.RemoveCustomer(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.SaveCustomerCustomer">
+            <summary>Sets the shim of CustomerAppService.SaveCustomer(Customer customer)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.UpdateCustomerCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.UpdateCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.AddNewCustomerCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.AddNewCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.Dispose">
+            <summary>Sets the shim of CustomerAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.FindCountriesInt32Int32">
+            <summary>Sets the shim of CustomerAppService.FindCountries(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.FindCountriesString">
+            <summary>Sets the shim of CustomerAppService.FindCountries(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.FindCustomerGuid">
+            <summary>Sets the shim of CustomerAppService.FindCustomer(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.FindCustomersInt32Int32">
+            <summary>Sets the shim of CustomerAppService.FindCustomers(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.FindCustomersString">
+            <summary>Sets the shim of CustomerAppService.FindCustomers(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.MaterializeCustomerFromDtoCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.MaterializeCustomerFromDto(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.RemoveCustomerGuid">
+            <summary>Sets the shim of CustomerAppService.RemoveCustomer(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.SaveCustomerCustomer">
+            <summary>Sets the shim of CustomerAppService.SaveCustomer(Customer customer)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimCustomerAppService.AllInstances.UpdateCustomerCustomerDTO">
+            <summary>Sets the shim of CustomerAppService.UpdateCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.SalesAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.SalesAppService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.Bind(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.ISalesAppService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AddNewBookBookDTO">
+            <summary>Sets the shim of SalesAppService.AddNewBook(BookDTO bookDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AddNewOrderOrderDTO">
+            <summary>Sets the shim of SalesAppService.AddNewOrder(OrderDTO orderDto)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AddNewSoftwareSoftwareDTO">
+            <summary>Sets the shim of SalesAppService.AddNewSoftware(SoftwareDTO softwareDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.ConstructorIProductRepositoryIOrderRepositoryICustomerRepository">
+            <summary>Sets the shim of SalesAppService.SalesAppService(IProductRepository productRepository, IOrderRepository orderRepository, ICustomerRepository customerRepository)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.CreateNewOrderOrderDTOCustomer">
+            <summary>Sets the shim of SalesAppService.CreateNewOrder(OrderDTO dto, Customer associatedCustomer)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.Dispose">
+            <summary>Sets the shim of SalesAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.FindOrdersGuid">
+            <summary>Sets the shim of SalesAppService.FindOrders(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.FindOrdersInt32Int32">
+            <summary>Sets the shim of SalesAppService.FindOrders(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.FindOrdersNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of SalesAppService.FindOrders(Nullable`1&lt;DateTime&gt; dateFrom, Nullable`1&lt;DateTime&gt; dateTo)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.FindProductsInt32Int32">
+            <summary>Sets the shim of SalesAppService.FindProducts(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.FindProductsString">
+            <summary>Sets the shim of SalesAppService.FindProducts(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.SaveOrderOrder">
+            <summary>Sets the shim of SalesAppService.SaveOrder(Order order)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.SaveProductProduct">
+            <summary>Sets the shim of SalesAppService.SaveProduct(Product product)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.AddNewBookBookDTO">
+            <summary>Sets the shim of SalesAppService.AddNewBook(BookDTO bookDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.AddNewOrderOrderDTO">
+            <summary>Sets the shim of SalesAppService.AddNewOrder(OrderDTO orderDto)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.AddNewSoftwareSoftwareDTO">
+            <summary>Sets the shim of SalesAppService.AddNewSoftware(SoftwareDTO softwareDTO)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.CreateNewOrderOrderDTOCustomer">
+            <summary>Sets the shim of SalesAppService.CreateNewOrder(OrderDTO dto, Customer associatedCustomer)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.Dispose">
+            <summary>Sets the shim of SalesAppService.Dispose()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.FindOrdersGuid">
+            <summary>Sets the shim of SalesAppService.FindOrders(Guid customerId)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.FindOrdersInt32Int32">
+            <summary>Sets the shim of SalesAppService.FindOrders(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.FindOrdersNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of SalesAppService.FindOrders(Nullable`1&lt;DateTime&gt; dateFrom, Nullable`1&lt;DateTime&gt; dateTo)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.FindProductsInt32Int32">
+            <summary>Sets the shim of SalesAppService.FindProducts(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.FindProductsString">
+            <summary>Sets the shim of SalesAppService.FindProducts(String text)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.SaveOrderOrder">
+            <summary>Sets the shim of SalesAppService.SaveOrder(Order order)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.ShimSalesAppService.AllInstances.SaveProductProduct">
+            <summary>Sets the shim of SalesAppService.SaveProduct(Product product)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.CustomerAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService.#ctor(Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.CountryAgg.ICountryRepository,Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.CustomerAgg.ICustomerRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerAppService</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubCustomerAppService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.ICustomerAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.#ctor">
+            <summary>Initializes a new instance of type StubICustomerAppService</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.AddNewCustomerCustomerDTO">
+            <summary>Sets the stub of ICustomerAppService.AddNewCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.FindCountriesInt32Int32">
+            <summary>Sets the stub of ICustomerAppService.FindCountries(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.FindCountriesString">
+            <summary>Sets the stub of ICustomerAppService.FindCountries(String text)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.FindCustomerGuid">
+            <summary>Sets the stub of ICustomerAppService.FindCustomer(Guid customerId)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.FindCustomersInt32Int32">
+            <summary>Sets the stub of ICustomerAppService.FindCustomers(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.FindCustomersString">
+            <summary>Sets the stub of ICustomerAppService.FindCustomers(String text)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#AddNewCustomer(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerDTO)">
+            <summary>Sets the stub of ICustomerAppService.AddNewCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#FindCountries(System.String)">
+            <summary>Sets the stub of ICustomerAppService.FindCountries(String text)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#FindCountries(System.Int32,System.Int32)">
+            <summary>Sets the stub of ICustomerAppService.FindCountries(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#FindCustomer(System.Guid)">
+            <summary>Sets the stub of ICustomerAppService.FindCustomer(Guid customerId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#FindCustomers(System.String)">
+            <summary>Sets the stub of ICustomerAppService.FindCustomers(String text)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#FindCustomers(System.Int32,System.Int32)">
+            <summary>Sets the stub of ICustomerAppService.FindCustomers(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#RemoveCustomer(System.Guid)">
+            <summary>Sets the stub of ICustomerAppService.RemoveCustomer(Guid customerId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ICustomerAppService#UpdateCustomer(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerDTO)">
+            <summary>Sets the stub of ICustomerAppService.UpdateCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.RemoveCustomerGuid">
+            <summary>Sets the stub of ICustomerAppService.RemoveCustomer(Guid customerId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubICustomerAppService.UpdateCustomerCustomerDTO">
+            <summary>Sets the stub of ICustomerAppService.UpdateCustomer(CustomerDTO customerDTO)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.ISalesAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.#ctor">
+            <summary>Initializes a new instance of type StubISalesAppService</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.AddNewBookBookDTO">
+            <summary>Sets the stub of ISalesAppService.AddNewBook(BookDTO book)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.AddNewOrderOrderDTO">
+            <summary>Sets the stub of ISalesAppService.AddNewOrder(OrderDTO order)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.AddNewSoftwareSoftwareDTO">
+            <summary>Sets the stub of ISalesAppService.AddNewSoftware(SoftwareDTO software)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.FindOrdersGuid">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Guid customerId)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.FindOrdersInt32Int32">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.FindOrdersNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Nullable`1&lt;DateTime&gt; dateFrom, Nullable`1&lt;DateTime&gt; dateTo)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.FindProductsInt32Int32">
+            <summary>Sets the stub of ISalesAppService.FindProducts(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.FindProductsString">
+            <summary>Sets the stub of ISalesAppService.FindProducts(String text)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#AddNewBook(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BookDTO)">
+            <summary>Sets the stub of ISalesAppService.AddNewBook(BookDTO book)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#AddNewOrder(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderDTO)">
+            <summary>Sets the stub of ISalesAppService.AddNewOrder(OrderDTO order)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#AddNewSoftware(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.SoftwareDTO)">
+            <summary>Sets the stub of ISalesAppService.AddNewSoftware(SoftwareDTO software)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#FindOrders(System.Guid)">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Guid customerId)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#FindOrders(System.Int32,System.Int32)">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#FindOrders(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>Sets the stub of ISalesAppService.FindOrders(Nullable`1&lt;DateTime&gt; dateFrom, Nullable`1&lt;DateTime&gt; dateTo)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#FindProducts(System.String)">
+            <summary>Sets the stub of ISalesAppService.FindProducts(String text)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.nlaambc::Microsoft#Samples#NLayerApp#Application#MainBoundedContext#ERPModule#Services#ISalesAppService#FindProducts(System.Int32,System.Int32)">
+            <summary>Sets the stub of ISalesAppService.FindProducts(Int32 pageIndex, Int32 pageCount)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubISalesAppService.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.SalesAppService</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService.#ctor(Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.ProductAgg.IProductRepository,Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.OrderAgg.IOrderRepository,Microsoft.Samples.NLayerApp.Domain.MainBoundedContext.ERPModule.Aggregates.CustomerAgg.ICustomerRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService.InitializeStub">
+            <summary>Initializes a new instance of type StubSalesAppService</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.ERPModule.Services.Fakes.StubSalesAppService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

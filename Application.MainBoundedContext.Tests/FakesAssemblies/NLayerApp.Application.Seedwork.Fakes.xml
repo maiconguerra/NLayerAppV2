@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Application.Seedwork.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.Seedwork.ApplicationValidationErrorsException</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.#ctor(Microsoft.Samples.NLayerApp.Application.Seedwork.ApplicationValidationErrorsException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.ConstructorIEnumerableOfString">
+            <summary>Sets the shim of ApplicationValidationErrorsException.ApplicationValidationErrorsException(IEnumerable`1&lt;String&gt; validationErrors)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.ValidationErrorsGet">
+            <summary>Sets the shim of ApplicationValidationErrorsException.get_ValidationErrors()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimApplicationValidationErrorsException.AllInstances.ValidationErrorsGet">
+            <summary>Sets the shim of ApplicationValidationErrorsException.get_ValidationErrors()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.Seedwork.ProjectionsExtensionMethods</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.ProjectedAsCollectionOf1IEnumerableOfEntity``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{Microsoft.Samples.NLayerApp.Domain.Seedwork.Entity},System.Collections.Generic.List{``0}})">
+            <summary>Sets the shim of ProjectionsExtensionMethods.ProjectedAsCollection(IEnumerable`1&lt;Entity&gt; items)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.ProjectedAsOf1Entity``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.Samples.NLayerApp.Domain.Seedwork.Entity,``0})">
+            <summary>Sets the shim of ProjectionsExtensionMethods.ProjectedAs(Entity item)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.ShimProjectionsExtensionMethods.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.Seedwork.ApplicationValidationErrorsException</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.#ctor(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubApplicationValidationErrorsException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubApplicationValidationErrorsException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.InitializeStub">
+            <summary>Initializes a new instance of type StubApplicationValidationErrorsException</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.Seedwork.Fakes.StubApplicationValidationErrorsException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+    </members>
+</doc>

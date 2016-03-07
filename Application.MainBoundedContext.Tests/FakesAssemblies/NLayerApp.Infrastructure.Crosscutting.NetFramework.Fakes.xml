@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Infrastructure.Crosscutting.NetFramework.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapter</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.AdaptOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>Sets the shim of AutomapperTypeAdapter.Adapt(Object source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.AdaptOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,``1})">
+            <summary>Sets the shim of AutomapperTypeAdapter.Adapt(!!0 source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.ITypeAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.Constructor">
+            <summary>Sets the shim of AutomapperTypeAdapter.AutomapperTypeAdapter()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.AllInstances.AdaptOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapter,System.Object,``0})">
+            <summary>Sets the shim of AutomapperTypeAdapter.Adapt(Object source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapter.AllInstances.AdaptOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapter,``0,``1})">
+            <summary>Sets the shim of AutomapperTypeAdapter.Adapt(!!0 source)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapterFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapterFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.ITypeAdapterFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.Constructor">
+            <summary>Sets the shim of AutomapperTypeAdapterFactory.AutomapperTypeAdapterFactory()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.Create">
+            <summary>Sets the shim of AutomapperTypeAdapterFactory.Create()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory._ctorb__0Assembly">
+            <summary>Sets the shim of AutomapperTypeAdapterFactory.&lt;.ctor&gt;b__0(Assembly a)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory._ctorb__1Type">
+            <summary>Sets the shim of AutomapperTypeAdapterFactory.&lt;.ctor&gt;b__1(Type t)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.ShimAutomapperTypeAdapterFactory.AllInstances.Create">
+            <summary>Sets the shim of AutomapperTypeAdapterFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapter</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter.InitializeStub">
+            <summary>Initializes a new instance of type StubAutomapperTypeAdapter</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.AutomapperTypeAdapterFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubAutomapperTypeAdapterFactory</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Adapter.Fakes.StubAutomapperTypeAdapterFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.TraceSourceLog</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.TraceSourceLog)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.ILogger)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.Constructor">
+            <summary>Sets the shim of TraceSourceLog.TraceSourceLog()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.DebugObject">
+            <summary>Sets the shim of TraceSourceLog.Debug(Object item)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.DebugStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Debug(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.DebugStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Debug(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.FatalStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Fatal(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.FatalStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Fatal(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.LogErrorStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogError(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.LogErrorStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogError(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.LogInfoStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogInfo(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.LogWarningStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogWarning(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.TraceInternalTraceEventTypeString">
+            <summary>Sets the shim of TraceSourceLog.TraceInternal(TraceEventType eventType, String message)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.DebugObject">
+            <summary>Sets the shim of TraceSourceLog.Debug(Object item)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.DebugStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Debug(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.DebugStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Debug(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.FatalStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Fatal(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.FatalStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.Fatal(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.LogErrorStringExceptionObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogError(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.LogErrorStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogError(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.LogInfoStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogInfo(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.LogWarningStringObjectArray">
+            <summary>Sets the shim of TraceSourceLog.LogWarning(String message, Object[] args)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLog.AllInstances.TraceInternalTraceEventTypeString">
+            <summary>Sets the shim of TraceSourceLog.TraceInternal(TraceEventType eventType, String message)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.TraceSourceLogFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.TraceSourceLogFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.ILoggerFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.Constructor">
+            <summary>Sets the shim of TraceSourceLogFactory.TraceSourceLogFactory()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.Create">
+            <summary>Sets the shim of TraceSourceLogFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.ShimTraceSourceLogFactory.AllInstances.Create">
+            <summary>Sets the shim of TraceSourceLogFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.TraceSourceLogFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubTraceSourceLogFactory</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Logging.Fakes.StubTraceSourceLogFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.IEntityValidator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.GetInvalidMessagesOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.GetInvalidMessages(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.IsValidOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Boolean})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.IsValid(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.SetValidatableObjectErrorsOf1M0ListOfString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Collections.Generic.List{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.SetValidatableObjectErrors(!!0 item, List`1&lt;String&gt; errors)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.SetValidationAttributeErrorsOf1M0ListOfString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Collections.Generic.List{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.SetValidationAttributeErrors(!!0 item, List`1&lt;String&gt; errors)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator._SetValidatableObjectErrorsb__0Of1ValidationResult``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.ComponentModel.DataAnnotations.ValidationResult,System.String})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.&lt;SetValidatableObjectErrors&gt;b__0(ValidationResult vr)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator._SetValidationAttributeErrorsb__3Of1PropertyDescriptor``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.ComponentModel.PropertyDescriptor,System.Collections.Generic.IEnumerable{System.ComponentModel.DataAnnotations.ValidationAttribute}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.&lt;SetValidationAttributeErrors&gt;b__3(PropertyDescriptor property)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.Constructor">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.DataAnnotationsEntityValidator()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.AllInstances.GetInvalidMessagesOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator,``0,System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.GetInvalidMessages(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.AllInstances.IsValidOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator,``0,System.Boolean})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.IsValid(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.AllInstances.SetValidatableObjectErrorsOf1M0ListOfString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator,``0,System.Collections.Generic.List{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.SetValidatableObjectErrors(!!0 item, List`1&lt;String&gt; errors)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidator.AllInstances.SetValidationAttributeErrorsOf1M0ListOfString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator,``0,System.Collections.Generic.List{System.String}})">
+            <summary>Sets the shim of DataAnnotationsEntityValidator.SetValidationAttributeErrors(!!0 item, List`1&lt;String&gt; errors)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidatorFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.#ctor(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidatorFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.Bind(Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.IEntityValidatorFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.Constructor">
+            <summary>Sets the shim of DataAnnotationsEntityValidatorFactory.DataAnnotationsEntityValidatorFactory()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.Create">
+            <summary>Sets the shim of DataAnnotationsEntityValidatorFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.ShimDataAnnotationsEntityValidatorFactory.AllInstances.Create">
+            <summary>Sets the shim of DataAnnotationsEntityValidatorFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidator</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator.InitializeStub">
+            <summary>Initializes a new instance of type StubDataAnnotationsEntityValidator</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.DataAnnotationsEntityValidatorFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubDataAnnotationsEntityValidatorFactory</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.NetFramework.Validator.Fakes.StubDataAnnotationsEntityValidatorFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

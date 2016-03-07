@@ -1,0 +1,1466 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Application.MainBoundedContext.DTO.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BalanceGet">
+            <summary>Sets the shim of BankAccountDTO.get_Balance()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BalanceSetDecimal">
+            <summary>Sets the shim of BankAccountDTO.set_Balance(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BankAccountNumberGet">
+            <summary>Sets the shim of BankAccountDTO.get_BankAccountNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.BankAccountNumberSetString">
+            <summary>Sets the shim of BankAccountDTO.set_BankAccountNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.Constructor">
+            <summary>Sets the shim of BankAccountDTO.BankAccountDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerFirstNameGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerFirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerFirstNameSetString">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerFirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerIdGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerIdSetGuid">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerLastNameGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerLastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.CustomerLastNameSetString">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerLastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.IdGet">
+            <summary>Sets the shim of BankAccountDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.IdSetGuid">
+            <summary>Sets the shim of BankAccountDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.LockedGet">
+            <summary>Sets the shim of BankAccountDTO.get_Locked()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.LockedSetBoolean">
+            <summary>Sets the shim of BankAccountDTO.set_Locked(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.BalanceGet">
+            <summary>Sets the shim of BankAccountDTO.get_Balance()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.BalanceSetDecimal">
+            <summary>Sets the shim of BankAccountDTO.set_Balance(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.BankAccountNumberGet">
+            <summary>Sets the shim of BankAccountDTO.get_BankAccountNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.BankAccountNumberSetString">
+            <summary>Sets the shim of BankAccountDTO.set_BankAccountNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerFirstNameGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerFirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerFirstNameSetString">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerFirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerIdGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerIdSetGuid">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerLastNameGet">
+            <summary>Sets the shim of BankAccountDTO.get_CustomerLastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.CustomerLastNameSetString">
+            <summary>Sets the shim of BankAccountDTO.set_CustomerLastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.IdGet">
+            <summary>Sets the shim of BankAccountDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of BankAccountDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.LockedGet">
+            <summary>Sets the shim of BankAccountDTO.get_Locked()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankAccountDTO.AllInstances.LockedSetBoolean">
+            <summary>Sets the shim of BankAccountDTO.set_Locked(Boolean value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankActivityDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankActivityDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.ActivityDescriptionGet">
+            <summary>Sets the shim of BankActivityDTO.get_ActivityDescription()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.ActivityDescriptionSetString">
+            <summary>Sets the shim of BankActivityDTO.set_ActivityDescription(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AmountGet">
+            <summary>Sets the shim of BankActivityDTO.get_Amount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AmountSetDecimal">
+            <summary>Sets the shim of BankActivityDTO.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.Constructor">
+            <summary>Sets the shim of BankActivityDTO.BankActivityDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.DateGet">
+            <summary>Sets the shim of BankActivityDTO.get_Date()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.DateSetDateTime">
+            <summary>Sets the shim of BankActivityDTO.set_Date(DateTime value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.ActivityDescriptionGet">
+            <summary>Sets the shim of BankActivityDTO.get_ActivityDescription()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.ActivityDescriptionSetString">
+            <summary>Sets the shim of BankActivityDTO.set_ActivityDescription(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.AmountGet">
+            <summary>Sets the shim of BankActivityDTO.get_Amount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.AmountSetDecimal">
+            <summary>Sets the shim of BankActivityDTO.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.DateGet">
+            <summary>Sets the shim of BankActivityDTO.get_Date()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBankActivityDTO.AllInstances.DateSetDateTime">
+            <summary>Sets the shim of BankActivityDTO.set_Date(DateTime value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BookDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BookDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AmountInStockGet">
+            <summary>Sets the shim of BookDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AmountInStockSetInt32">
+            <summary>Sets the shim of BookDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.Constructor">
+            <summary>Sets the shim of BookDTO.BookDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.DescriptionGet">
+            <summary>Sets the shim of BookDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.DescriptionSetString">
+            <summary>Sets the shim of BookDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.ISBNGet">
+            <summary>Sets the shim of BookDTO.get_ISBN()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.ISBNSetString">
+            <summary>Sets the shim of BookDTO.set_ISBN(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.IdGet">
+            <summary>Sets the shim of BookDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.IdSetGuid">
+            <summary>Sets the shim of BookDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.PublisherGet">
+            <summary>Sets the shim of BookDTO.get_Publisher()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.PublisherSetString">
+            <summary>Sets the shim of BookDTO.set_Publisher(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.TitleGet">
+            <summary>Sets the shim of BookDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.TitleSetString">
+            <summary>Sets the shim of BookDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.UnitPriceGet">
+            <summary>Sets the shim of BookDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.UnitPriceSetDecimal">
+            <summary>Sets the shim of BookDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.AmountInStockGet">
+            <summary>Sets the shim of BookDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.AmountInStockSetInt32">
+            <summary>Sets the shim of BookDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.DescriptionGet">
+            <summary>Sets the shim of BookDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.DescriptionSetString">
+            <summary>Sets the shim of BookDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.ISBNGet">
+            <summary>Sets the shim of BookDTO.get_ISBN()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.ISBNSetString">
+            <summary>Sets the shim of BookDTO.set_ISBN(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.IdGet">
+            <summary>Sets the shim of BookDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of BookDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.PublisherGet">
+            <summary>Sets the shim of BookDTO.get_Publisher()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.PublisherSetString">
+            <summary>Sets the shim of BookDTO.set_Publisher(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.TitleGet">
+            <summary>Sets the shim of BookDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.TitleSetString">
+            <summary>Sets the shim of BookDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.UnitPriceGet">
+            <summary>Sets the shim of BookDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimBookDTO.AllInstances.UnitPriceSetDecimal">
+            <summary>Sets the shim of BookDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CountryDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CountryDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.Constructor">
+            <summary>Sets the shim of CountryDTO.CountryDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.CountryISOCodeGet">
+            <summary>Sets the shim of CountryDTO.get_CountryISOCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.CountryISOCodeSetString">
+            <summary>Sets the shim of CountryDTO.set_CountryISOCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.CountryNameGet">
+            <summary>Sets the shim of CountryDTO.get_CountryName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.CountryNameSetString">
+            <summary>Sets the shim of CountryDTO.set_CountryName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.IdGet">
+            <summary>Sets the shim of CountryDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.IdSetGuid">
+            <summary>Sets the shim of CountryDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.CountryISOCodeGet">
+            <summary>Sets the shim of CountryDTO.get_CountryISOCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.CountryISOCodeSetString">
+            <summary>Sets the shim of CountryDTO.set_CountryISOCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.CountryNameGet">
+            <summary>Sets the shim of CountryDTO.get_CountryName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.CountryNameSetString">
+            <summary>Sets the shim of CountryDTO.set_CountryName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.IdGet">
+            <summary>Sets the shim of CountryDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCountryDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of CountryDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressAddressLine1Get">
+            <summary>Sets the shim of CustomerDTO.get_AddressAddressLine1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressAddressLine1SetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressAddressLine1(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressAddressLine2Get">
+            <summary>Sets the shim of CustomerDTO.get_AddressAddressLine2()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressAddressLine2SetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressAddressLine2(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressCityGet">
+            <summary>Sets the shim of CustomerDTO.get_AddressCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressCitySetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressZipCodeGet">
+            <summary>Sets the shim of CustomerDTO.get_AddressZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AddressZipCodeSetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CompanyGet">
+            <summary>Sets the shim of CustomerDTO.get_Company()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CompanySetString">
+            <summary>Sets the shim of CustomerDTO.set_Company(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.Constructor">
+            <summary>Sets the shim of CustomerDTO.CustomerDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CountryCountryNameGet">
+            <summary>Sets the shim of CustomerDTO.get_CountryCountryName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CountryCountryNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_CountryCountryName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CountryIdGet">
+            <summary>Sets the shim of CustomerDTO.get_CountryId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CountryIdSetGuid">
+            <summary>Sets the shim of CustomerDTO.set_CountryId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CreditLimitGet">
+            <summary>Sets the shim of CustomerDTO.get_CreditLimit()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.CreditLimitSetDecimal">
+            <summary>Sets the shim of CustomerDTO.set_CreditLimit(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.FirstNameGet">
+            <summary>Sets the shim of CustomerDTO.get_FirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.FirstNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.IdGet">
+            <summary>Sets the shim of CustomerDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.IdSetGuid">
+            <summary>Sets the shim of CustomerDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.LastNameGet">
+            <summary>Sets the shim of CustomerDTO.get_LastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.LastNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.PictureRawPhotoGet">
+            <summary>Sets the shim of CustomerDTO.get_PictureRawPhoto()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.PictureRawPhotoSetByteArray">
+            <summary>Sets the shim of CustomerDTO.set_PictureRawPhoto(Byte[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.TelephoneGet">
+            <summary>Sets the shim of CustomerDTO.get_Telephone()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.TelephoneSetString">
+            <summary>Sets the shim of CustomerDTO.set_Telephone(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressAddressLine1Get">
+            <summary>Sets the shim of CustomerDTO.get_AddressAddressLine1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressAddressLine1SetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressAddressLine1(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressAddressLine2Get">
+            <summary>Sets the shim of CustomerDTO.get_AddressAddressLine2()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressAddressLine2SetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressAddressLine2(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressCityGet">
+            <summary>Sets the shim of CustomerDTO.get_AddressCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressCitySetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressZipCodeGet">
+            <summary>Sets the shim of CustomerDTO.get_AddressZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.AddressZipCodeSetString">
+            <summary>Sets the shim of CustomerDTO.set_AddressZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CompanyGet">
+            <summary>Sets the shim of CustomerDTO.get_Company()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CompanySetString">
+            <summary>Sets the shim of CustomerDTO.set_Company(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CountryCountryNameGet">
+            <summary>Sets the shim of CustomerDTO.get_CountryCountryName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CountryCountryNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_CountryCountryName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CountryIdGet">
+            <summary>Sets the shim of CustomerDTO.get_CountryId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CountryIdSetGuid">
+            <summary>Sets the shim of CustomerDTO.set_CountryId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CreditLimitGet">
+            <summary>Sets the shim of CustomerDTO.get_CreditLimit()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.CreditLimitSetDecimal">
+            <summary>Sets the shim of CustomerDTO.set_CreditLimit(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.FirstNameGet">
+            <summary>Sets the shim of CustomerDTO.get_FirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.IdGet">
+            <summary>Sets the shim of CustomerDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of CustomerDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.LastNameGet">
+            <summary>Sets the shim of CustomerDTO.get_LastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.LastNameSetString">
+            <summary>Sets the shim of CustomerDTO.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.PictureRawPhotoGet">
+            <summary>Sets the shim of CustomerDTO.get_PictureRawPhoto()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.PictureRawPhotoSetByteArray">
+            <summary>Sets the shim of CustomerDTO.set_PictureRawPhoto(Byte[] value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.TelephoneGet">
+            <summary>Sets the shim of CustomerDTO.get_Telephone()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerDTO.AllInstances.TelephoneSetString">
+            <summary>Sets the shim of CustomerDTO.set_Telephone(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerListDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerListDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressAddressLine1Get">
+            <summary>Sets the shim of CustomerListDTO.get_AddressAddressLine1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressAddressLine1SetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressAddressLine1(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressAddressLine2Get">
+            <summary>Sets the shim of CustomerListDTO.get_AddressAddressLine2()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressAddressLine2SetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressAddressLine2(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressCityGet">
+            <summary>Sets the shim of CustomerListDTO.get_AddressCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressCitySetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressZipCodeGet">
+            <summary>Sets the shim of CustomerListDTO.get_AddressZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AddressZipCodeSetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.CompanyGet">
+            <summary>Sets the shim of CustomerListDTO.get_Company()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.CompanySetString">
+            <summary>Sets the shim of CustomerListDTO.set_Company(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.Constructor">
+            <summary>Sets the shim of CustomerListDTO.CustomerListDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.CreditLimitGet">
+            <summary>Sets the shim of CustomerListDTO.get_CreditLimit()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.CreditLimitSetDecimal">
+            <summary>Sets the shim of CustomerListDTO.set_CreditLimit(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.FirstNameGet">
+            <summary>Sets the shim of CustomerListDTO.get_FirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.FirstNameSetString">
+            <summary>Sets the shim of CustomerListDTO.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.IdGet">
+            <summary>Sets the shim of CustomerListDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.IdSetGuid">
+            <summary>Sets the shim of CustomerListDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.LastNameGet">
+            <summary>Sets the shim of CustomerListDTO.get_LastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.LastNameSetString">
+            <summary>Sets the shim of CustomerListDTO.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.TelephoneGet">
+            <summary>Sets the shim of CustomerListDTO.get_Telephone()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.TelephoneSetString">
+            <summary>Sets the shim of CustomerListDTO.set_Telephone(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressAddressLine1Get">
+            <summary>Sets the shim of CustomerListDTO.get_AddressAddressLine1()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressAddressLine1SetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressAddressLine1(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressAddressLine2Get">
+            <summary>Sets the shim of CustomerListDTO.get_AddressAddressLine2()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressAddressLine2SetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressAddressLine2(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressCityGet">
+            <summary>Sets the shim of CustomerListDTO.get_AddressCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressCitySetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressZipCodeGet">
+            <summary>Sets the shim of CustomerListDTO.get_AddressZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.AddressZipCodeSetString">
+            <summary>Sets the shim of CustomerListDTO.set_AddressZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.CompanyGet">
+            <summary>Sets the shim of CustomerListDTO.get_Company()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.CompanySetString">
+            <summary>Sets the shim of CustomerListDTO.set_Company(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.CreditLimitGet">
+            <summary>Sets the shim of CustomerListDTO.get_CreditLimit()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.CreditLimitSetDecimal">
+            <summary>Sets the shim of CustomerListDTO.set_CreditLimit(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.FirstNameGet">
+            <summary>Sets the shim of CustomerListDTO.get_FirstName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of CustomerListDTO.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.IdGet">
+            <summary>Sets the shim of CustomerListDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of CustomerListDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.LastNameGet">
+            <summary>Sets the shim of CustomerListDTO.get_LastName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.LastNameSetString">
+            <summary>Sets the shim of CustomerListDTO.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.TelephoneGet">
+            <summary>Sets the shim of CustomerListDTO.get_Telephone()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimCustomerListDTO.AllInstances.TelephoneSetString">
+            <summary>Sets the shim of CustomerListDTO.set_Telephone(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.Constructor">
+            <summary>Sets the shim of OrderDTO.OrderDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.CustomerFullNameGet">
+            <summary>Sets the shim of OrderDTO.get_CustomerFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.CustomerFullNameSetString">
+            <summary>Sets the shim of OrderDTO.set_CustomerFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.CustomerIdGet">
+            <summary>Sets the shim of OrderDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.CustomerIdSetGuid">
+            <summary>Sets the shim of OrderDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.DeliveryDateGet">
+            <summary>Sets the shim of OrderDTO.get_DeliveryDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.DeliveryDateSetNullableOfDateTime">
+            <summary>Sets the shim of OrderDTO.set_DeliveryDate(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.IdGet">
+            <summary>Sets the shim of OrderDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.IdSetGuid">
+            <summary>Sets the shim of OrderDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderDateGet">
+            <summary>Sets the shim of OrderDTO.get_OrderDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderDateSetDateTime">
+            <summary>Sets the shim of OrderDTO.set_OrderDate(DateTime value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderLinesGet">
+            <summary>Sets the shim of OrderDTO.get_OrderLines()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderLinesSetListOfOrderLineDTO">
+            <summary>Sets the shim of OrderDTO.set_OrderLines(List`1&lt;OrderLineDTO&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderNumberGet">
+            <summary>Sets the shim of OrderDTO.get_OrderNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.OrderNumberSetString">
+            <summary>Sets the shim of OrderDTO.set_OrderNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingAddressGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingAddress()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingAddressSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingAddress(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingCityGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingCitySetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingNameGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingNameSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingZipCodeGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.ShippingZipCodeSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingZipCode(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.CustomerFullNameGet">
+            <summary>Sets the shim of OrderDTO.get_CustomerFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.CustomerFullNameSetString">
+            <summary>Sets the shim of OrderDTO.set_CustomerFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.CustomerIdGet">
+            <summary>Sets the shim of OrderDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.CustomerIdSetGuid">
+            <summary>Sets the shim of OrderDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.DeliveryDateGet">
+            <summary>Sets the shim of OrderDTO.get_DeliveryDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.DeliveryDateSetNullableOfDateTime">
+            <summary>Sets the shim of OrderDTO.set_DeliveryDate(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.IdGet">
+            <summary>Sets the shim of OrderDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of OrderDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderDateGet">
+            <summary>Sets the shim of OrderDTO.get_OrderDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderDateSetDateTime">
+            <summary>Sets the shim of OrderDTO.set_OrderDate(DateTime value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderLinesGet">
+            <summary>Sets the shim of OrderDTO.get_OrderLines()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderLinesSetListOfOrderLineDTO">
+            <summary>Sets the shim of OrderDTO.set_OrderLines(List`1&lt;OrderLineDTO&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderNumberGet">
+            <summary>Sets the shim of OrderDTO.get_OrderNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.OrderNumberSetString">
+            <summary>Sets the shim of OrderDTO.set_OrderNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingAddressGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingAddress()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingAddressSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingAddress(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingCityGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingCitySetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingNameGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingNameSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingZipCodeGet">
+            <summary>Sets the shim of OrderDTO.get_ShippingZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderDTO.AllInstances.ShippingZipCodeSetString">
+            <summary>Sets the shim of OrderDTO.set_ShippingZipCode(String value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderLineDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderLineDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AmountGet">
+            <summary>Sets the shim of OrderLineDTO.get_Amount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AmountSetInt32">
+            <summary>Sets the shim of OrderLineDTO.set_Amount(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.Constructor">
+            <summary>Sets the shim of OrderLineDTO.OrderLineDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.DiscountGet">
+            <summary>Sets the shim of OrderLineDTO.get_Discount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.DiscountSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_Discount(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.IdGet">
+            <summary>Sets the shim of OrderLineDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.IdSetGuid">
+            <summary>Sets the shim of OrderLineDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.ProductIdGet">
+            <summary>Sets the shim of OrderLineDTO.get_ProductId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.ProductIdSetGuid">
+            <summary>Sets the shim of OrderLineDTO.set_ProductId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.ProductTitleGet">
+            <summary>Sets the shim of OrderLineDTO.get_ProductTitle()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.ProductTitleSetString">
+            <summary>Sets the shim of OrderLineDTO.set_ProductTitle(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.TotalLineGet">
+            <summary>Sets the shim of OrderLineDTO.get_TotalLine()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.TotalLineSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_TotalLine(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.UnitPriceGet">
+            <summary>Sets the shim of OrderLineDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.UnitPriceSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.AmountGet">
+            <summary>Sets the shim of OrderLineDTO.get_Amount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.AmountSetInt32">
+            <summary>Sets the shim of OrderLineDTO.set_Amount(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.DiscountGet">
+            <summary>Sets the shim of OrderLineDTO.get_Discount()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.DiscountSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_Discount(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.IdGet">
+            <summary>Sets the shim of OrderLineDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of OrderLineDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.ProductIdGet">
+            <summary>Sets the shim of OrderLineDTO.get_ProductId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.ProductIdSetGuid">
+            <summary>Sets the shim of OrderLineDTO.set_ProductId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.ProductTitleGet">
+            <summary>Sets the shim of OrderLineDTO.get_ProductTitle()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.ProductTitleSetString">
+            <summary>Sets the shim of OrderLineDTO.set_ProductTitle(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.TotalLineGet">
+            <summary>Sets the shim of OrderLineDTO.get_TotalLine()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.TotalLineSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_TotalLine(Decimal value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.UnitPriceGet">
+            <summary>Sets the shim of OrderLineDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderLineDTO.AllInstances.UnitPriceSetDecimal">
+            <summary>Sets the shim of OrderLineDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderListDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderListDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.Constructor">
+            <summary>Sets the shim of OrderListDTO.OrderListDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.CustomerFullNameGet">
+            <summary>Sets the shim of OrderListDTO.get_CustomerFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.CustomerFullNameSetString">
+            <summary>Sets the shim of OrderListDTO.set_CustomerFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.CustomerIdGet">
+            <summary>Sets the shim of OrderListDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.CustomerIdSetGuid">
+            <summary>Sets the shim of OrderListDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.DeliveryDateGet">
+            <summary>Sets the shim of OrderListDTO.get_DeliveryDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.DeliveryDateSetNullableOfDateTime">
+            <summary>Sets the shim of OrderListDTO.set_DeliveryDate(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.IdGet">
+            <summary>Sets the shim of OrderListDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.IdSetGuid">
+            <summary>Sets the shim of OrderListDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.OrderDateGet">
+            <summary>Sets the shim of OrderListDTO.get_OrderDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.OrderDateSetDateTime">
+            <summary>Sets the shim of OrderListDTO.set_OrderDate(DateTime value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.OrderNumberGet">
+            <summary>Sets the shim of OrderListDTO.get_OrderNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.OrderNumberSetString">
+            <summary>Sets the shim of OrderListDTO.set_OrderNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingAddressGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingAddress()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingAddressSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingAddress(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingCityGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingCitySetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingNameGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingNameSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingZipCodeGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.ShippingZipCodeSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.TotalOrderGet">
+            <summary>Sets the shim of OrderListDTO.get_TotalOrder()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.TotalOrderSetDecimal">
+            <summary>Sets the shim of OrderListDTO.set_TotalOrder(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.CustomerFullNameGet">
+            <summary>Sets the shim of OrderListDTO.get_CustomerFullName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.CustomerFullNameSetString">
+            <summary>Sets the shim of OrderListDTO.set_CustomerFullName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.CustomerIdGet">
+            <summary>Sets the shim of OrderListDTO.get_CustomerId()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.CustomerIdSetGuid">
+            <summary>Sets the shim of OrderListDTO.set_CustomerId(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.DeliveryDateGet">
+            <summary>Sets the shim of OrderListDTO.get_DeliveryDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.DeliveryDateSetNullableOfDateTime">
+            <summary>Sets the shim of OrderListDTO.set_DeliveryDate(Nullable`1&lt;DateTime&gt; value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.IdGet">
+            <summary>Sets the shim of OrderListDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of OrderListDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.OrderDateGet">
+            <summary>Sets the shim of OrderListDTO.get_OrderDate()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.OrderDateSetDateTime">
+            <summary>Sets the shim of OrderListDTO.set_OrderDate(DateTime value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.OrderNumberGet">
+            <summary>Sets the shim of OrderListDTO.get_OrderNumber()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.OrderNumberSetString">
+            <summary>Sets the shim of OrderListDTO.set_OrderNumber(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingAddressGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingAddress()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingAddressSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingAddress(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingCityGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingCity()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingCitySetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingCity(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingNameGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingName()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingNameSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingName(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingZipCodeGet">
+            <summary>Sets the shim of OrderListDTO.get_ShippingZipCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.ShippingZipCodeSetString">
+            <summary>Sets the shim of OrderListDTO.set_ShippingZipCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.TotalOrderGet">
+            <summary>Sets the shim of OrderListDTO.get_TotalOrder()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimOrderListDTO.AllInstances.TotalOrderSetDecimal">
+            <summary>Sets the shim of OrderListDTO.set_TotalOrder(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.ProductDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.ProductDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AmountInStockGet">
+            <summary>Sets the shim of ProductDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AmountInStockSetInt32">
+            <summary>Sets the shim of ProductDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.Constructor">
+            <summary>Sets the shim of ProductDTO.ProductDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.DescriptionGet">
+            <summary>Sets the shim of ProductDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.DescriptionSetString">
+            <summary>Sets the shim of ProductDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.IdGet">
+            <summary>Sets the shim of ProductDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.IdSetGuid">
+            <summary>Sets the shim of ProductDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.TitleGet">
+            <summary>Sets the shim of ProductDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.TitleSetString">
+            <summary>Sets the shim of ProductDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.UnitPriceGet">
+            <summary>Sets the shim of ProductDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.UnitPriceSetDecimal">
+            <summary>Sets the shim of ProductDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.AmountInStockGet">
+            <summary>Sets the shim of ProductDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.AmountInStockSetInt32">
+            <summary>Sets the shim of ProductDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.DescriptionGet">
+            <summary>Sets the shim of ProductDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.DescriptionSetString">
+            <summary>Sets the shim of ProductDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.IdGet">
+            <summary>Sets the shim of ProductDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of ProductDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.TitleGet">
+            <summary>Sets the shim of ProductDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.TitleSetString">
+            <summary>Sets the shim of ProductDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.UnitPriceGet">
+            <summary>Sets the shim of ProductDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimProductDTO.AllInstances.UnitPriceSetDecimal">
+            <summary>Sets the shim of ProductDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.SoftwareDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.#ctor(Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.SoftwareDTO)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AmountInStockGet">
+            <summary>Sets the shim of SoftwareDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AmountInStockSetInt32">
+            <summary>Sets the shim of SoftwareDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.Constructor">
+            <summary>Sets the shim of SoftwareDTO.SoftwareDTO()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.DescriptionGet">
+            <summary>Sets the shim of SoftwareDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.DescriptionSetString">
+            <summary>Sets the shim of SoftwareDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.IdGet">
+            <summary>Sets the shim of SoftwareDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.IdSetGuid">
+            <summary>Sets the shim of SoftwareDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.LicenseCodeGet">
+            <summary>Sets the shim of SoftwareDTO.get_LicenseCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.LicenseCodeSetString">
+            <summary>Sets the shim of SoftwareDTO.set_LicenseCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.TitleGet">
+            <summary>Sets the shim of SoftwareDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.TitleSetString">
+            <summary>Sets the shim of SoftwareDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.UnitPriceGet">
+            <summary>Sets the shim of SoftwareDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.UnitPriceSetDecimal">
+            <summary>Sets the shim of SoftwareDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.AmountInStockGet">
+            <summary>Sets the shim of SoftwareDTO.get_AmountInStock()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.AmountInStockSetInt32">
+            <summary>Sets the shim of SoftwareDTO.set_AmountInStock(Int32 value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.DescriptionGet">
+            <summary>Sets the shim of SoftwareDTO.get_Description()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.DescriptionSetString">
+            <summary>Sets the shim of SoftwareDTO.set_Description(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.IdGet">
+            <summary>Sets the shim of SoftwareDTO.get_Id()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.IdSetGuid">
+            <summary>Sets the shim of SoftwareDTO.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.LicenseCodeGet">
+            <summary>Sets the shim of SoftwareDTO.get_LicenseCode()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.LicenseCodeSetString">
+            <summary>Sets the shim of SoftwareDTO.set_LicenseCode(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.TitleGet">
+            <summary>Sets the shim of SoftwareDTO.get_Title()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.TitleSetString">
+            <summary>Sets the shim of SoftwareDTO.set_Title(String value)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.UnitPriceGet">
+            <summary>Sets the shim of SoftwareDTO.get_UnitPrice()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.ShimSoftwareDTO.AllInstances.UnitPriceSetDecimal">
+            <summary>Sets the shim of SoftwareDTO.set_UnitPrice(Decimal value)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankAccountDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubBankAccountDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankAccountDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BankActivityDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubBankActivityDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBankActivityDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.BookDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubBookDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubBookDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CountryDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubCountryDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCountryDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.CustomerListDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerListDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubCustomerListDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubOrderDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderLineDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubOrderLineDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderLineDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.OrderListDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubOrderListDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubOrderListDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.ProductDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubProductDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubProductDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.SoftwareDTO</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO.InitializeStub">
+            <summary>Initializes a new instance of type StubSoftwareDTO</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Application.MainBoundedContext.DTO.Fakes.StubSoftwareDTO.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Infrastructure.Crosscutting.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.TypeAdapterFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.CreateAdapter">
+            <summary>Sets the shim of TypeAdapterFactory.CreateAdapter()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.SetCurrentITypeAdapterFactory">
+            <summary>Sets the shim of TypeAdapterFactory.SetCurrent(ITypeAdapterFactory adapterFactory)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.ShimTypeAdapterFactory.StaticConstructor">
+            <summary>Sets the shim of TypeAdapterFactory.TypeAdapterFactory()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.ITypeAdapter</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter.#ctor">
+            <summary>Initializes a new instance of type StubITypeAdapter</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter.AdaptOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>Sets stubs of Adapt(Object source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter.AdaptOf2M0``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,``1})">
+            <summary>Sets stubs of Adapt(!!0 source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Adapter#ITypeAdapter#Adapt``1(System.Object)">
+            <summary>Sets the stub of ITypeAdapter.Adapt(Object source)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapter.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Adapter#ITypeAdapter#Adapt``2(``0)">
+            <summary>Sets the stub of ITypeAdapter.Adapt(!!0 source)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapterFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.ITypeAdapterFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapterFactory.#ctor">
+            <summary>Initializes a new instance of type StubITypeAdapterFactory</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapterFactory.Create">
+            <summary>Sets the stub of ITypeAdapterFactory.Create()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Adapter.Fakes.StubITypeAdapterFactory.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Adapter#ITypeAdapterFactory#Create">
+            <summary>Sets the stub of ITypeAdapterFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.LoggerFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.CreateLog">
+            <summary>Sets the shim of LoggerFactory.CreateLog()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.SetCurrentILoggerFactory">
+            <summary>Sets the shim of LoggerFactory.SetCurrent(ILoggerFactory logFactory)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.ShimLoggerFactory.StaticConstructor">
+            <summary>Sets the shim of LoggerFactory.LoggerFactory()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.ILogger</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.#ctor">
+            <summary>Initializes a new instance of type StubILogger</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.DebugObject">
+            <summary>Sets the stub of ILogger.Debug(Object item)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.DebugStringExceptionObjectArray">
+            <summary>Sets the stub of ILogger.Debug(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.DebugStringObjectArray">
+            <summary>Sets the stub of ILogger.Debug(String message, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.FatalStringExceptionObjectArray">
+            <summary>Sets the stub of ILogger.Fatal(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.FatalStringObjectArray">
+            <summary>Sets the stub of ILogger.Fatal(String message, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.LogErrorStringExceptionObjectArray">
+            <summary>Sets the stub of ILogger.LogError(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.LogErrorStringObjectArray">
+            <summary>Sets the stub of ILogger.LogError(String message, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.LogInfoStringObjectArray">
+            <summary>Sets the stub of ILogger.LogInfo(String message, Object[] args)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.LogWarningStringObjectArray">
+            <summary>Sets the stub of ILogger.LogWarning(String message, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#Debug(System.Object)">
+            <summary>Sets the stub of ILogger.Debug(Object item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#Debug(System.String,System.Object[])">
+            <summary>Sets the stub of ILogger.Debug(String message, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#Debug(System.String,System.Exception,System.Object[])">
+            <summary>Sets the stub of ILogger.Debug(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#Fatal(System.String,System.Object[])">
+            <summary>Sets the stub of ILogger.Fatal(String message, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#Fatal(System.String,System.Exception,System.Object[])">
+            <summary>Sets the stub of ILogger.Fatal(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#LogError(System.String,System.Object[])">
+            <summary>Sets the stub of ILogger.LogError(String message, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#LogError(System.String,System.Exception,System.Object[])">
+            <summary>Sets the stub of ILogger.LogError(String message, Exception exception, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#LogInfo(System.String,System.Object[])">
+            <summary>Sets the stub of ILogger.LogInfo(String message, Object[] args)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILogger.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILogger#LogWarning(System.String,System.Object[])">
+            <summary>Sets the stub of ILogger.LogWarning(String message, Object[] args)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILoggerFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.ILoggerFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILoggerFactory.#ctor">
+            <summary>Initializes a new instance of type StubILoggerFactory</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILoggerFactory.Create">
+            <summary>Sets the stub of ILoggerFactory.Create()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Logging.Fakes.StubILoggerFactory.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Logging#ILoggerFactory#Create">
+            <summary>Sets the stub of ILoggerFactory.Create()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory">
+            <summary>Shim type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.EntityValidatorFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.CreateValidator">
+            <summary>Sets the shim of EntityValidatorFactory.CreateValidator()</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.SetCurrentIEntityValidatorFactory">
+            <summary>Sets the shim of EntityValidatorFactory.SetCurrent(IEntityValidatorFactory factory)</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.ShimEntityValidatorFactory.StaticConstructor">
+            <summary>Sets the shim of EntityValidatorFactory.EntityValidatorFactory()</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.IEntityValidator</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator.#ctor">
+            <summary>Initializes a new instance of type StubIEntityValidator</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator.GetInvalidMessagesOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>Sets stubs of GetInvalidMessages(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator.IsValidOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Boolean})">
+            <summary>Sets stubs of IsValid(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Validator#IEntityValidator#GetInvalidMessages``1(``0)">
+            <summary>Sets the stub of IEntityValidator.GetInvalidMessages(!!0 item)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidator.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Validator#IEntityValidator#IsValid``1(``0)">
+            <summary>Sets the stub of IEntityValidator.IsValid(!!0 item)</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidatorFactory">
+            <summary>Stub type of Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.IEntityValidatorFactory</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidatorFactory.#ctor">
+            <summary>Initializes a new instance of type StubIEntityValidatorFactory</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidatorFactory.Create">
+            <summary>Sets the stub of IEntityValidatorFactory.Create()</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Infrastructure.Crosscutting.Validator.Fakes.StubIEntityValidatorFactory.nlaic::Microsoft#Samples#NLayerApp#Infrastructure#Crosscutting#Validator#IEntityValidatorFactory#Create">
+            <summary>Sets the stub of IEntityValidatorFactory.Create()</summary>
+        </member>
+    </members>
+</doc>
